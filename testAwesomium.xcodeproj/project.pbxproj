@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC1625FF1A6432210037622B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1625FE1A6432210037622B /* main.m */; };
+		CC16260C1A6432360037622B /* application_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC1626051A6432360037622B /* application_mac.mm */; };
+		CC16260E1A6432360037622B /* view_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC16260A1A6432360037622B /* view_mac.mm */; };
+		CC1626111A6433930037622B /* application.h in Sources */ = {isa = PBXBuildFile; fileRef = CC1626061A6432360037622B /* application.h */; };
+		CC1626131A64371B0037622B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1626121A64371B0037622B /* Cocoa.framework */; };
+		CC1626151A643F3F0037622B /* Awesomium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1626141A643F3F0037622B /* Awesomium.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC1625F91A6432210037622B /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC1625FB1A6432210037622B /* testAwesomium */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testAwesomium; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1625FE1A6432210037622B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC1626051A6432360037622B /* application_mac.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = application_mac.mm; path = ../application_mac.mm; sourceTree = "<group>"; };
+		CC1626061A6432360037622B /* application.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = application.h; path = ../application.h; sourceTree = "<group>"; };
+		CC1626071A6432360037622B /* js_delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = js_delegate.h; path = ../js_delegate.h; sourceTree = "<group>"; };
+		CC1626091A6432360037622B /* method_dispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = method_dispatcher.h; path = ../method_dispatcher.h; sourceTree = "<group>"; };
+		CC16260A1A6432360037622B /* view_mac.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = view_mac.mm; path = ../view_mac.mm; sourceTree = "<group>"; };
+		CC16260B1A6432360037622B /* view.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = view.h; path = ../view.h; sourceTree = "<group>"; };
+		CC1626121A64371B0037622B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CC1626141A643F3F0037622B /* Awesomium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Awesomium.framework; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC1625F81A6432210037622B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1626151A643F3F0037622B /* Awesomium.framework in Frameworks */,
+				CC1626131A64371B0037622B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC1625F21A6432210037622B = {
+			isa = PBXGroup;
+			children = (
+				CC1626141A643F3F0037622B /* Awesomium.framework */,
+				CC1626121A64371B0037622B /* Cocoa.framework */,
+				CC1625FD1A6432210037622B /* testAwesomium */,
+				CC1625FC1A6432210037622B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC1625FC1A6432210037622B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC1625FB1A6432210037622B /* testAwesomium */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC1625FD1A6432210037622B /* testAwesomium */ = {
+			isa = PBXGroup;
+			children = (
+				CC1626051A6432360037622B /* application_mac.mm */,
+				CC1626061A6432360037622B /* application.h */,
+				CC1626071A6432360037622B /* js_delegate.h */,
+				CC1626091A6432360037622B /* method_dispatcher.h */,
+				CC16260A1A6432360037622B /* view_mac.mm */,
+				CC16260B1A6432360037622B /* view.h */,
+				CC1625FE1A6432210037622B /* main.m */,
+			);
+			path = testAwesomium;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC1625FA1A6432210037622B /* testAwesomium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1626021A6432210037622B /* Build configuration list for PBXNativeTarget "testAwesomium" */;
+			buildPhases = (
+				CC1625F71A6432210037622B /* Sources */,
+				CC1625F81A6432210037622B /* Frameworks */,
+				CC1625F91A6432210037622B /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testAwesomium;
+			productName = testAwesomium;
+			productReference = CC1625FB1A6432210037622B /* testAwesomium */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC1625F31A6432210037622B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = gcweb;
+				TargetAttributes = {
+					CC1625FA1A6432210037622B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = CC1625F61A6432210037622B /* Build configuration list for PBXProject "testAwesomium" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC1625F21A6432210037622B;
+			productRefGroup = CC1625FC1A6432210037622B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC1625FA1A6432210037622B /* testAwesomium */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC1625F71A6432210037622B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC16260C1A6432360037622B /* application_mac.mm in Sources */,
+				CC16260E1A6432360037622B /* view_mac.mm in Sources */,
+				CC1625FF1A6432210037622B /* main.m in Sources */,
+				CC1626111A6433930037622B /* application.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC1626001A6432210037622B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC1626011A6432210037622B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC1626031A6432210037622B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/gaochao/brandon_project/awsomeTest/awsomeTest,
+					"$(PROJECT_DIR)",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		CC1626041A6432210037622B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/gaochao/brandon_project/awsomeTest/awsomeTest,
+					"$(PROJECT_DIR)",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC1625F61A6432210037622B /* Build configuration list for PBXProject "testAwesomium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1626001A6432210037622B /* Debug */,
+				CC1626011A6432210037622B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC1626021A6432210037622B /* Build configuration list for PBXNativeTarget "testAwesomium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1626031A6432210037622B /* Debug */,
+				CC1626041A6432210037622B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC1625F31A6432210037622B /* Project object */;
+}
